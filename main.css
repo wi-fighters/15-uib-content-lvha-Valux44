@@ -6,7 +6,8 @@ main {
   margin: 20px;
 }
 
-li, p {
+li,
+p {
   font-size: 20px;
 }
 
@@ -14,15 +15,46 @@ button {
   background: none repeat scroll 0 0 transparent;
   border: 1px solid black;
   color: black;
-  font-family: 'PT Sans Narrow',sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
   font-size: 16px;
 }
 
-
 /* Task 1 */
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: rgb(65, 3, 77);
+}
+
+a:hover {
+  color: blueviolet;
+}
+
+a:active {
+  color: red;
+}
 
 /* Task 2 */
 
+button:hover {
+  color: aquamarine;
+}
+
+button:active {
+  color: aqua;
+}
+
 /* Task 3 */
+
+p:first-letter {
+  color: rgb(226, 43, 217);
+}
+
+h2 + p::first-line {
+  color: green;
+}
 
 /* Task 4 */
